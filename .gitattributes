@@ -1,2 +1,117 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homwork week1</title>
+  </head>
+
+  <style>
+
+    h1 {
+        text-align: center;
+
+    }
+    h2 {
+      font-weight: bold;
+      text-align: center;
+      font-size: 30px;
+      color: blue;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    h3 {
+      text-align: center;
+      font-size: 18px;
+    }
+
+    h4 {
+      text-align: center;
+      font-size: 18px;
+    }
+
+    h5 {
+      text-align: center;
+      font-size: 18px;
+    }
+
+    p {
+      text-align: center;
+      font-size: 12px;
+    }
+
+    button {
+      text-align: center;
+      font-size: 12px;
+      display: block;
+      background: blue;
+      color: white;
+      padding: 15px 20px;
+      margin: 20px auto;
+      border: 1px solid blue;
+      border-radius: 30px;
+      transition: all 200ms ease-in-out;
+    }
+    button:hover {
+      background: white;
+      color: blue;
+      cursor: pointer;
+      box-shadow: inset;
+    }
+
+    h3:hover {
+        background: rgb(228, 228, 163);
+        cursor: pointer;
+        width: 200px;
+        margin:auto;
+    }
+
+    h4:hover {
+        background: rgb(228, 228, 163);
+        cursor: pointer;
+        width: 200px;
+        margin: auto;
+    }
+
+    h5:hover {
+        background:rgb(228, 228, 163);
+        cursor: pointer;
+        width: 200px;
+        margin: auto;
+    }
+
+  </style>
+  <body>
+    
+    <div class="forecast">
+        <h1> 🌤️ </h1>
+    
+    <h2>Currently 
+    21&deg; in Tokyo</h2>
+
+    <p>13&deg; / <strong> 23&deg; </strong></p>
+
+    <div class=" day-forecast">
+
+    <h3> 🌧️ Tomorrow 
+    <p>10&deg; / <strong> 22&deg; </strong></p>
+
+    <h4> ⛅ saturday 
+    <p>15&deg; / <strong> 17&deg; </strong></p>
+
+    <h5> ☀️ sunday 
+    <p>5&deg; / <strong> 28&deg; </strong></p>
+
+</div>
+
+    <button>Change city</button>
+
+
+    <p>Coded by Rotenda Magada</p>
+  </body>
+</html>
