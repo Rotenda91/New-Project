@@ -1,5 +1,5 @@
 body {
-  background-color: #acbfce;
+  background-color: #white;
 }
 
 :root {
@@ -12,11 +12,13 @@ h1 {
   color: var(--primary-color);
   text-align: center;
   font-style: bold;
+  font-size: 24px;
 }
 
 h2 {
   color: var(--primary-color);
   text-align: center;
+  font-size: 56px;
 }
 
 p {
@@ -44,14 +46,6 @@ a {
 a:hover {
   color: rgb(65, 14, 14);
   text-decoration: none;
-}
-
-.about-paragraphs {
-  display: flex;
-  margin: 20px 0;
-}
-.about-paragraphs p {
-  margin: 20px;
 }
 
 button {
